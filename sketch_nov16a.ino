@@ -13,7 +13,7 @@ const char* password = "aaaaaaaa";
 
 #define DHTPIN 5     // Digital pin connected to the DHT sensor
 
-// Uncomment the type of sensor in use:
+
 #define DHTTYPE    DHT11     
 
 DHT dht(DHTPIN, DHTTYPE);
@@ -69,7 +69,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     <span id="humidity">%HUMIDITY%</span>
     <sup class="units">%</sup>
   </p>
-  <h6>made by- Abhay, Aryan, Aditya & Shreyansh</h6>
+  <h6>made by- Abhay</h6>
 </body>
 <script>
 setInterval(function ( ) {
